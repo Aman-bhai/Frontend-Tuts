@@ -1,0 +1,45 @@
+{
+    "status": "ok",
+    "totalResults": 3,
+    "articles": [
+        {
+            "source": {
+                "id": "talksport",
+                "name": "TalkSport"
+            },
+            "author": "Jake Lambourne",
+            "title": "Jeff Stelling given standing ovation on final Soccer Saturday appearance in emotional farewell...",
+            "description": "Legendary Soccer Saturday host Jeff Stelling bid farewell to Sky Sports as he presented the show for the final time. The 68-year-old, who joined Sky in 1992 before becoming host of their Saturday f…",
+            "url": "https://talksport.com/football/1439511/jeff-stelling-final-soccer-saturday-show/",
+            "urlToImage": "https://talksport.com/wp-content/uploads/sites/5/2023/05/OQ-TALKSPORT-JEFF-STELLING.jpg?strip=all&quality=100&w=1500&h=1000&crop=1",
+            "publishedAt": "2023-05-28T20:40:52Z",
+            "content": "Legendary Soccer Saturday host Jeff Stelling bid farewell to Sky Sports as he presented the show for the final time.\r\nThe 68-year-old, who joined Sky in 1992 before becoming host of their Saturday fo… [+3123 chars]"
+        },
+        {
+            "source": {
+                "id": "bleacher-report",
+                "name": "Bleacher Report"
+            },
+            "author": null,
+            "title": "☄️ Knicks Playoff Special ",
+            "description": "Fan easier, fan faster and fan better with Bleacher Report. Keep up with the latest storylines, expert analysis, highlights and scores for all your favorite sports.",
+            "url": "https://bleacherreport.com/videos/431020-knicks-start-playoff-run--hero-ball",
+            "urlToImage": null,
+            "publishedAt": "2023-04-17T21:22:15.1716203Z",
+            "content": "Knicks Start Playoff Run | Hero Ball"
+        },
+        {
+            "source": {
+                "id": "bleacher-report",
+                "name": "Bleacher Report"
+            },
+            "author": null,
+            "title": "&#x27;The Voncast&#x27; with Myles Garrett",
+            "description": "Fan easier, fan faster and fan better with Bleacher Report. Keep up with the latest storylines, expert analysis, highlights and scores for all your favorite sports.",
+            "url": "https://bleacherreport.com/videos/304730-the-voncast-with-myles-garrett",
+            "urlToImage": null,
+            "publishedAt": "2022-12-01T18:52:49.4768049Z",
+            "content": "Myles Garrett and Von Miller talk playing in the NBA, pick their dream NFL defense and more"
+        }
+    ]
+}
