@@ -1,0 +1,137 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Time Table</title>
+    <style>
+        .day{background-color: bisque;
+            background-image:linear-gradient(to top right,rgba(64, 255, 0, 0.425),rgba(0, 157, 255, 0.598));
+            text-align: center;
+            font-weight: bold;
+            font-family: cursive;
+            border:2px solid black;
+
+        }
+.lunch{
+    background-image: linear-gradient(to top left,rgba(255, 0, 0, 0.626),rgba(255, 255, 0, 0.717));
+    text-align: center;
+    font-weight: bold;
+    border-radius: 100%;
+    font-family: cursive;
+    border-style:dotted;
+    border-color:yellowgreen;
+    border-width:3px;
+}
+    .heading{
+        background-image: linear-gradient(to bottom right,rgba(251, 255, 0, 0.626),rgba(255, 255, 0, 0.888));
+        text-align: center;
+        font-weight: bold;
+        font-family: cursive;
+
+    }
+    table{
+        border:4px solid rgb(255, 0, 162);
+        border-spacing: 5px;
+        border-collapse: separate;
+        margin-left: auto;
+        margin-right:auto;
+    
+        
+    }
+    *{
+        text-align: center;
+    }
+        .nec{
+            background-image: linear-gradient(to bottom left,rgba(0, 98, 255, 0.432),rgba(255, 0, 251, 0.628));
+            border-style:dashed;
+            border-width:2px;
+        }
+         th,td{
+            border:2px solid black;
+         }
+         .holiday{
+            background-image: linear-gradient(to bottom left,rgba(255, 0, 13, 0.388),rgba(212, 255, 0, 0.251));
+            border-style:dashed;
+            border:2px solid black;
+         }       
+    </style>
+</head>
+<body>
+    <h1>Time Table</h1>
+    <table border=" " cellpadding="10px" >
+        <thead><th class="heading" >Timing--> / Day</th>
+        <th class="heading">10am-11am</th>
+        <th class="heading">11am-12pm</th>
+        <th class="heading">12pm-1pm</th>
+        <th class="heading">1pm-2pm</th>
+        <th class="heading">2pm-3pm</th>
+        <th class="heading">3pm-4pm</th>
+        <th class="heading">4pm-5pm</th>
+        <th class="heading">5pm-6pm</th>
+       </thead>
+       <tbody>
+        <tr>
+            <td class="day">Monday</td>
+            <td>DBMS</td>
+            <td colspan="2">Python Lab</td>
+            <td class="lunch">Lunch</td>
+            <td>Soft.Eng.</td>
+            <td></td>
+            <td></td>
+            <td class="nec"></td>
+        </tr>
+        <tr> 
+            <td class="day">Tuesday</td>
+            <td >WEB Tech Lab</td>
+            <td>Computer Network</td>
+            <td>DBMS</td>
+            <td class="lunch">Lunch</td>
+            <td>TOC</td>
+            <td>Soft.Eng.</td>
+            <td></td>
+            <td class="nec"></td></tr>
+        <tr>   
+            <td class="day">Wednesday</td>
+            <td>DBMS</td>
+            <td>TOC</td>
+            <td>WEB TECH</td>
+            <td class="lunch">Lunch</td>
+            <td colspan="2">Python Lab</td>
+            <td>ICTK</td>
+            <td class="nec"></td></tr>
+        <tr> 
+            <td class="day">Thursday</td>
+            <td>Soft.Emg.</td>
+            <td colspan="2">SQL Lab</td>
+            <td class="lunch">Lunch</td>
+            <td>WEB TECH</td>
+            <td>Computer Network</td>
+            <td></td>
+            <td class="nec"></td></tr>
+        <tr>            <td class="day">Friday</td>  
+             <td>WEB TECH</td>
+            <td>TOC</td>
+            <td>Computer Network</td>
+            <td class="lunch">Lunch</td>
+            <td></td>
+            <td></td>
+            <td></td>
+            <td class="nec"></td></tr>
+        <tr><td class="day holiday">Saturday</td>  
+            <td class="holiday"></td>
+           <td class="holiday"></td>
+           <td class="holiday"></td>
+           <td class="holiday" ></td>
+           <td class="holiday"></td>
+           <td class="holiday"></td>
+           <td class="holiday"></td>
+           <td class="holiday"></td></tr>
+            
+           
+       </tbody>
+    </table>
+    
+</body>
+</html>
